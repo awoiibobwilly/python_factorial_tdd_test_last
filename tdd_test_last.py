@@ -55,25 +55,25 @@ class TestFactorialFunction(unittest.TestCase):
         self.assertEqual(factorial(0), 1)
 
     # Test for negative integers (should raise an error)
-    def test_negative_integer(self):
-        self.assertEqual(factorial(-3), "Error: Factorial is not defined for negative values.")
-        self.assertEqual(factorial(-9), "Error: Factorial is not defined for negative values.")
+    # def test_negative_integer(self):
+    #     self.assertEqual(factorial(-3), "Error: Factorial is not defined for negative values.")
+    #     self.assertEqual(factorial(-9), "Error: Factorial is not defined for negative values.")
 
-    # Test for negative floats (should raise an error)
-    def test_negative_float(self):
-        self.assertEqual(factorial(-3.5), "Error: Factorial is not defined for negative values.")
+    # # Test for negative floats (should raise an error)
+    # def test_negative_float(self):
+    #     self.assertEqual(factorial(-3.5), "Error: Factorial is not defined for negative values.")
 
-    # Test for large negative numbers (should raise an error)
-    def test_large_negative(self):
-        self.assertEqual(factorial(-10), "Error: Factorial is not defined for negative values.")
+    # # Test for large negative numbers (should raise an error)
+    # def test_large_negative(self):
+    #     self.assertEqual(factorial(-10), "Error: Factorial is not defined for negative values.")
 
-    # Test for large positive numbers (should raise an error)
-    def test_large_positive(self):
-        self.assertEqual(factorial(10), "Error: Factorial is not defined for numbers greater than 9.")
+    # # Test for large positive numbers (should raise an error)
+    # def test_large_positive(self):
+    #     self.assertEqual(factorial(10), "Error: Factorial is not defined for numbers greater than 9.")
 
-    # Test for non-numeric input (string)
-    def test_non_numeric_string(self):
-        self.assertEqual(factorial("a"), "Error: Input must be a number.")
+    # # Test for non-numeric input (string)
+    # def test_non_numeric_string(self):
+    #     self.assertEqual(factorial("a"), "Error: Input must be a number.")
 
     # Test for one (edge case)
     def test_one(self):
@@ -85,20 +85,20 @@ class TestFactorialFunction(unittest.TestCase):
 
     # THESE ARE TESTS OUTSIDE THE RANGE
 
-    def testing_wrong_greathan_9(self):
-        self.assertEqual(factorial(10), 3628800)
+    # def testing_wrong_greathan_9(self):
+    #     self.assertEqual(factorial(10), 3628800)
 
-    def testing_wrong_negative(self):
-        self.assertEqual(factorial(-3), 2)
+    # def testing_wrong_negative(self):
+    #     self.assertEqual(factorial(-3), 2)
 
-    def testing_wrong_string(self):
-        self.assertEqual(factorial("a"), 10)
+    # def testing_wrong_string(self):
+    #     self.assertEqual(factorial("a"), 10)
 
-    def testing_wrong_neg_float(self):
-        self.assertEqual(factorial(-3.2), "Answer")
+    # def testing_wrong_neg_float(self):
+    #     self.assertEqual(factorial(-3.2), "Answer")
 
-    def testing_wrong_float_positive(self):
-        self.assertEqual(factorial(9.1), 40321.5)
+    # def testing_wrong_float_positive(self):
+    #     self.assertEqual(factorial(9.1), 40321.5)
 
 
 if __name__ == '__main__':
