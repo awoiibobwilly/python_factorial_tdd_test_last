@@ -103,4 +103,3 @@ class TestFactorialFunction(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-# Test for two (edge case)
